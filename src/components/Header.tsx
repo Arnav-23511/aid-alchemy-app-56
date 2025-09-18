@@ -20,7 +20,7 @@ const Header = () => {
           <nav className="hidden md:flex space-x-12">
             <button onClick={() => navigate("/")} className="text-foreground hover:text-primary transition-colors">Home</button>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
-            <a href="#services" className="text-foreground hover:text-primary transition-colors">Services</a>
+            <button onClick={() => navigate("/services")} className="text-foreground hover:text-primary transition-colors">Services</button>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">Hiring Forum</a>
           </nav>
 
@@ -48,7 +48,7 @@ const Header = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-border">
               <button onClick={() => navigate("/")} className="block px-3 py-2 text-foreground hover:text-primary transition-colors w-full text-left">Home</button>
               <a href="#about" className="block px-3 py-2 text-foreground hover:text-primary transition-colors">About</a>
-              <a href="#services" className="block px-3 py-2 text-foreground hover:text-primary transition-colors">Services</a>
+              <button onClick={() => navigate("/services")} className="block px-3 py-2 text-foreground hover:text-primary transition-colors w-full text-left">Services</button>
               <a href="#contact" className="block px-3 py-2 text-foreground hover:text-primary transition-colors">Hiring Forum</a>
               <div className="pt-4 pb-3 border-t border-border">
                 <div className="flex items-center space-x-3">
