@@ -89,9 +89,6 @@ const ServiceHighlights = () => {
 
         {/* CTA Section */}
         <div className="text-center bg-white rounded-2xl p-12 shadow-card">
-          <h3 className="text-2xl font-bold text-foreground mb-4">
-            Ready to Get Started?
-          </h3>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
             Join thousands of satisfied property owners who trust CareTaker Pro 
             for their property management needs.
