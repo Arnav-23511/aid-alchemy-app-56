@@ -48,25 +48,6 @@ const HeroSection = () => {
             Secure, reliable, and trusted by thousands of property owners.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Button 
-              variant="hero" 
-              size="lg" 
-              className="text-lg px-8 py-6 min-w-[200px]"
-              onClick={() => navigate("/post-requirement")}
-            >
-              Hire a Caretaker
-            </Button>
-            <Button 
-              variant="action" 
-              size="lg" 
-              className="text-lg px-8 py-6 min-w-[200px]"
-              onClick={() => navigate("/signin")}
-            >
-              Become a Caretaker
-            </Button>
-          </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-white/20">
